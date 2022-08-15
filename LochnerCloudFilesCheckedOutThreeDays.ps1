@@ -142,7 +142,7 @@ foreach($PWDoc in $PWDocuments){
     $SortedTable | Export-Csv -path "C:\Scripts\Table.csv"
   
     $MailMessage = @{
-        To = "sbooth@hwlochner.com", "jlund@hwlochner.com"
+        To = "sbooth@hwlochner.com"
         From = "LochnerPWAdmin@hwlochner.com"
         Subject = "List of Users With Files Checked Out More Than 3 Days"
         Body = "See attached list of users"
