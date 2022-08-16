@@ -110,8 +110,6 @@ foreach($PWDoc in $PWDocuments){
 
         $msg.from = "LochnerPWAdmin@hwlochner.com"
         $msg.To.Add("sbooth@hwlochner.com")
-        $msg.CC.Add("jlund@hwlochner.com")
-        $msg.CC.Add("meyre@hwlochner.com")
         $msg.subject = "LochnerCloud Projectwise Documents Checked Out Over 3 Days"
         $msg.IsBodyHtml = $True
         $msg.Body = $EmailBody
